@@ -10,6 +10,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class ExportAPIType {
+    public static final String URL = "jdbc:mysql://192.168.3.2/differjh2016v5?useUnicode=true&characterEncoding=utf8";
+    public static final String NAME = "com.mysql.cj.jdbc.Driver";
     public static final String USER = "developer";
     public static final String PASSWORD = "dev";
 
